@@ -1,0 +1,38 @@
+<!--
+<resources>
+    &lt;!&ndash; Default screen margins, per the Android Design guidelines. &ndash;&gt;
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>-->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">5dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">300dp</dimen>
+    <dimen name="layout_padding">10dp</dimen>
+    <dimen name="layout_margin">10dp</dimen>
+    <dimen name="layout_elevation">3dp</dimen>
+    <dimen name="layout_elevation_large">10dp</dimen>
+    <dimen name="logo_size">80dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <!-- Font sizes -->
+    <dimen name="large_text_size">18dp</dimen> <!-- Large Headings -->
+    <dimen name="medium_text_size">16sp</dimen> <!-- Smaller Headings-->
+    <dimen name="small_text_size">12sp</dimen> <!-- Paragraphs -->
+    <dimen name="micro_text_size">9dp</dimen><!-- Date and time -->
+
+    <!-- Corner radius-->
+    <dimen name="inputs_corner_radius">15dp</dimen>
+    <dimen name="round_panel_radius">3dp</dimen>
+
+</resources>
+

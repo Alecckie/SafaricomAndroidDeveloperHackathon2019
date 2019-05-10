@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/layout_room_types"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/display_round_panel"
+    android:elevation="@dimen/layout_elevation"
+    android:orientation="vertical"
+    android:layout_marginBottom="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/week_number"
+        style="@style/panel_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        style="@style/horizontal_divider"/>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <!-- Column 1 -->
+            <TableLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:padding="0dp">
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/layout_padding"
+                        style="@style/panel_content"
+                        android:textStyle="bold"
+                        android:text="Deposit"/>
+                    <TextView android:id="@+id/week_deposit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/layout_padding"
+                        style="@style/panel_content"/>
+                </LinearLayout>
+
+            </TableLayout>
+
+            <!-- Column 2 -->
+            <TableLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:padding="0dp">
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/layout_padding"
+                        style="@style/panel_content"
+                        android:textStyle="bold"
+                        android:text="Total"/>
+                    <TextView android:id="@+id/week_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/layout_padding"
+                        style="@style/panel_content"/>
+                </LinearLayout>
+
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
